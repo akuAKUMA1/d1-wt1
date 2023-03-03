@@ -1,25 +1,51 @@
-.container {
-  width: 500px;
-  height: 500px;
-  
+.base {
+  background: black;
+  width: 650px;
+  height: 650px;
+  border: 7px solid;
 }
-
-.shape {
-  width: 200px;
-  height: 200px;
-  float: right;
-  border: 8px solid black;
+.sq1 {
+  background: rgb(248, 52, 45);
+  width: 290px;
+  height: 365px;
 }
-
-.red {
-  background-color: red;
-  
+.sq2 {
+  background: rgb(253, 253, 253);
+  margin-left: 300px;
+  width: 350px;
+  height: 365px;
 }
-
-.blue {
-  background-color: blue;
+.sq3 {
+  background: rgb(253, 253, 253);
+  margin-top: 10px;
+  width: 290px;
+  height: 275px;
 }
-
-.yellow {
-  background-color: yellow;
+.sq4 {
+  background: rgb(253, 253, 253);
+  margin-top: 10px;
+  margin-left: 300px;
+  width: 290px;
+  height: 250px;
+}
+.sq5 {
+  background: rgb(255, 224, 49);
+  margin-top: 10px;
+  margin-left: 300px;
+  width: 140px;
+  height: 15px;
+}
+.sq6 {
+  background: rgb(0, 7, 197);
+  margin-top: 10px;
+  margin-left: 300px;
+  width: 50px;
+  height: 100px;
+}
+.sq7 {
+  background: rgb(253, 253, 253);
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 50px;
+  height: 155px;
 }
